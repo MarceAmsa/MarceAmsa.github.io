@@ -6,11 +6,9 @@
 
 body {
   overflow-x: hidden;
-  font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-family: 'Martel Sans', sans-serif;
-  font-family: 'Work Sans', sans-serif;
   font-family: 'Raleway', sans-serif;
-  font-family: 'Raleway Dots', cursive;
+  font-family: 'Martel Sans', sans-serif;
+
 }
 .text-muted {
   color: #777777;
@@ -23,7 +21,7 @@ p {
   line-height: 1.75;
 }
 p.large {
-  font-size: 16px;
+  font-size: 20px;
 }
 a,
 a:hover,
@@ -47,23 +45,23 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Helvetica Neue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Work Sans', sans-serif;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 100;
 }
 .img-centered {
   margin: 0 auto;
 }
 .bg-light-gray {
-  background-color: #f7f7f7;
+  background-color: white;
 }
 .bg-darkest-gray {
-  background-color: #222222;
+  background-color: black;
 }
 .btn-primary {
-  color: #ffffff;
+  color: black;
   background-color: #fed136;
-  border-color: #fed136;
+  border-color: white;
   font-family: "Helvetica Neue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -73,7 +71,7 @@ h6 {
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
-  color: #ffffff;
+  color: white;
   background-color: #fec503;
   border-color: #f6bf01;
 }
@@ -109,7 +107,7 @@ fieldset[disabled] .btn-primary.active {
   background-color: #fed136;
   border-color: #fed136;
   font-family: "Helvetica Neue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
+  text-transform: lowercase;
   font-weight: 700;
   border-radius: 3px;
   font-size: 18px;
@@ -157,7 +155,7 @@ fieldset[disabled] .btn-xl.active {
 }
 .navbar-default .navbar-brand {
   color: #fed136;
-  font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+  font-family: "Martel Sans", "Helvetica Neue", Helvetica, Arial, cursive;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
@@ -180,7 +178,7 @@ fieldset[disabled] .btn-xl.active {
   background-color: #fed136;
 }
 .navbar-default .nav li a {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Martel Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 400;
   letter-spacing: 1px;
