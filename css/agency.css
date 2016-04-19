@@ -7,6 +7,10 @@
 body {
   overflow-x: hidden;
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Martel Sans', sans-serif;
+  font-family: 'Work Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway Dots', cursive;
 }
 .text-muted {
   color: #777777;
