@@ -228,6 +228,8 @@ fieldset[disabled] .btn-xl.active {
     font-size: 1.5em;
   }
 }
+
+/* -------HEADER--------------------------HEADER------------------HEADER----------*/
 header {
   background-image: url('../img/header-bg.jpg');
   background-repeat: none;
@@ -245,8 +247,8 @@ header .intro-text {
   padding-bottom: 50px;
 }
 header .intro-text .intro-lead-in {
-  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-style: italic;
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
   font-size: 22px;
   line-height: 22px;
   margin-bottom: 25px;
@@ -264,19 +266,23 @@ header .intro-text .intro-heading {
     padding-top: 300px;
     padding-bottom: 200px;
   }
+
+  /* Landing page tittle itle*/
   header .intro-text .intro-lead-in {
-    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-style: italic;
-    font-size: 40px;
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 15px;
     line-height: 40px;
     margin-bottom: 25px;
   }
   header .intro-text .intro-heading {
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
-    font-weight: 700;
-    font-size: 75px;
-    line-height: 75px;
+    font-weight: 430;
+    letter-spacing: 15px;
+    font-size: 25px;
+    line-height: 70px;
     margin-bottom: 50px;
   }
 }
@@ -365,10 +371,10 @@ section h3.section-subheading {
   text-transform: none;
   margin: 0;
 }
-/*Caption del área del que pertenece el proyecto*/
+/*estilo de letra de la descripción del área del que pertenece el proyecto en portafolio*/
 #portfolio .portfolio-item .portfolio-caption p {
   font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-style: light;
+  font-style: Extra-Light;
   font-size: 16px;
   margin: 0;
 }
@@ -380,6 +386,9 @@ section h3.section-subheading {
     margin: 0 0 30px;
   }
 }
+
+/* TIMELINE-----------------------------------TIMELINE---------------------------------------TIMELINE*/
+
 .timeline {
   list-style: none;
   padding: 0;
@@ -686,7 +695,7 @@ ul.social-buttons li a:active {
 .portfolio-modal .modal-content p.item-intro {
   margin: 20px 0 30px;
   font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-style: italic;
+  /*font-style: italic;*/
   font-size: 16px;
 }
 .portfolio-modal .modal-content ul.list-inline {
