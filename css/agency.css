@@ -8,6 +8,7 @@ body {
   overflow-x: hidden;
   font-family: 'Raleway', sans-serif;
   font-family: 'Martel Sans', sans-serif;
+  font-family: 'Source Code Pro', ;
 
 }
 .text-muted {
@@ -45,6 +46,8 @@ h3,
 h4,
 h5,
 h6 {
+
+  /*titulo de portofolio about y etc*/
   font-family: 'Work Sans', sans-serif;
   text-transform: uppercase;
   font-weight: 100;
@@ -306,12 +309,17 @@ section h3.section-subheading {
   margin: 0 0 15px;
   right: 0;
 }
+/*grueso del tamano de el cuadro de imágenes de portafolio*/
+
 #portfolio .portfolio-item .portfolio-link {
   display: block;
   position: relative;
-  max-width: 400px;
+  max-width: 300px;
   margin: 0 auto;
 }
+
+/*transition de los elementos de portafolio*/
+
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
   background: rgba(254, 209, 54, 0.9);
   position: absolute;
@@ -322,6 +330,9 @@ section h3.section-subheading {
   -webkit-transition: all ease 0.5s;
   -moz-transition: all ease 0.5s;
 }
+
+/*opacidad del + de portafolio cuando hay mouse over*/
+
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
   opacity: 1;
 }
@@ -342,6 +353,7 @@ section h3.section-subheading {
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
   margin: 0;
 }
+/*espacio del caption, el área del texto*/
 #portfolio .portfolio-item .portfolio-caption {
   max-width: 400px;
   margin: 0 auto;
@@ -353,9 +365,10 @@ section h3.section-subheading {
   text-transform: none;
   margin: 0;
 }
+/*Caption del área del que pertenece el proyecto*/
 #portfolio .portfolio-item .portfolio-caption p {
-  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-style: italic;
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: light;
   font-size: 16px;
   margin: 0;
 }
