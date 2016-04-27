@@ -1142,13 +1142,13 @@ img {
           transition: all .2s ease-in-out;
 }
 .img-circle {
-  border-radius: 50%;
+  border-radius: 20%;
 }
 hr {
   margin-top: 20px;
   margin-bottom: 20px;
   border: 0;
-  border-top: 1px solid #eee;
+  border-top: 1px solid black;
 }
 .sr-only {
   position: absolute;

@@ -40,6 +40,8 @@ a:active,
 a.active {
   color: #fec503;
 }
+/*PORTAFOLIO ----------------- PORTAFOLIO -----------------------*/
+
 h1,
 h2,
 h3,
@@ -47,10 +49,11 @@ h4,
 h5,
 h6 {
 
-  /*titulo de portofolio about y etc*/
-  font-family: 'Work Sans', sans-serif;
+  /*TODO el texto del área de portafolio*/
+  font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
-  font-weight: 100;
+
+  font-weight: 200;
 }
 .img-centered {
   margin: 0 auto;
@@ -65,7 +68,7 @@ h6 {
   color: black;
   background-color: #fed136;
   border-color: white;
-  font-family: "Helvetica Neue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
   font-weight: 700;
 }
@@ -109,11 +112,11 @@ fieldset[disabled] .btn-primary.active {
   color: #ffffff;
   background-color: #fed136;
   border-color: #fed136;
-  font-family: "Helvetica Neue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', sans-serif;
   text-transform: lowercase;
   font-weight: 700;
   border-radius: 3px;
-  font-size: 18px;
+  font-size: 75px;
   padding: 20px 40px;
 }
 .btn-xl:hover,
@@ -158,7 +161,7 @@ fieldset[disabled] .btn-xl.active {
 }
 .navbar-default .navbar-brand {
   color: #fed136;
-  font-family: "Martel Sans", "Helvetica Neue", Helvetica, Arial, cursive;
+  font-family: 'Raleway', sans-serif;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
@@ -180,12 +183,15 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-toggle:focus {
   background-color: #fed136;
 }
+
+/*color de los titles del navbar (portofolio, about, etc) en el landing page*/
 .navbar-default .nav li a {
   font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
+  font-size: 13px;
   font-weight: 400;
-  letter-spacing: 1px;
-  color: black;
+  letter-spacing: 5px;
+  color: white;
 }
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
@@ -194,12 +200,12 @@ fieldset[disabled] .btn-xl.active {
 }
 .navbar-default .navbar-nav > .active > a {
   border-radius: 0;
-  color: white;
-  background-color: #fed136;
+  color: #fed136;
+  background-color: black;
 }
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-  color: white;
+  color: black;
   background-color: #fec503;
 }
 @media (min-width: 768px) {
@@ -232,16 +238,17 @@ fieldset[disabled] .btn-xl.active {
 
 /* -------HEADER--------------------------HEADER------------------HEADER----------*/
 header {
-  background-image: url('../img/header-bg4.jpg');
+  /*background-image: url('../img/header-bg4.jpg');*/
   background-repeat: none;
   background-attachment: scroll;
   background-position: center center;
+  background: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
   text-align: center;
-  color: black;
+  color: white;
 }
 header .intro-text {
   padding-top: 100px;
@@ -268,7 +275,7 @@ header .intro-text .intro-heading {
     padding-bottom: 200px;
   }
 
-  /* Landing page tittle itle*/
+  /* Landing page tittle*/
   header .intro-text .intro-lead-in {
     font-family: "Raleway", sans-serif;
     text-transform: uppercase;
@@ -287,25 +294,34 @@ header .intro-text .intro-heading {
     margin-bottom: 50px;
   }
 }
+
+/*Titulos----------------TITULOS----------*/
 section {
   padding: 100px 0;
 }
+
+/*Título de cada sección*/
 section h2.section-heading {
-  font-size: 40px;
+  font-size: 30px;
+  font-weight: 300;
   margin-top: 0;
   margin-bottom: 15px;
-}
+  letter-spacing: 5px;
+}  
+
+/*subtítulo descriptivo*/
 section h3.section-subheading {
-  font-size: 16px;
-  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-family: 'Work Sans', sans-serif;
   text-transform: none;
-  font-style: italic;
-  font-weight: 400;
+  /*font-style: italic;*/
+  font-weight: 250;
   margin-bottom: 75px;
 }
 @media (min-width: 768px) {
   section {
-    padding: 150px 0;
+    background: black;
+    padding: 150px ;
   }
 }
 .service-heading {
@@ -328,30 +344,30 @@ section h3.section-subheading {
 /*transition de los elementos de portafolio*/
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
-  background: rgba(254, 209, 54, 0.9);
+  background: white;
   position: absolute;
   width: 100%;
   height: 100%;
   opacity: 0;
   transition: all ease 0.5s;
-  -webkit-transition: all ease 0.5s;
+  -webkit-transition: all ease 0.4s;
   -moz-transition: all ease 0.5s;
 }
 
-/*opacidad del + de portafolio cuando hay mouse over*/
+/*opacidad de todo de portafolio cuando hay mouse over*/
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
-  opacity: 1;
+  opacity: 0.5;
 }
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
   position: absolute;
   width: 100%;
-  height: 20px;
-  font-size: 20px;
+  height: 30px;
+  font-size: 10px;
   text-align: center;
   top: 50%;
-  margin-top: -12px;
-  color: white;
+  margin-top: 0px;
+  color: black;
 }
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
   margin-top: -12px;
@@ -365,19 +381,24 @@ section h3.section-subheading {
   max-width: 400px;
   margin: 0 auto;
   background-color: white;
-  text-align: center;
+  text-align: left;
   padding: 25px;
 }
 #portfolio .portfolio-item .portfolio-caption h4 {
+  font-family: "Source Code Pro", "Raleway", Helvetica, Arial, sans-serif;
+  letter-spacing: 2px;
+  font-weight: 300;
   text-transform: none;
-  margin: 0;
+  margin: 10;
 }
 /*estilo de letra de la descripción del área del que pertenece el proyecto en portafolio*/
 #portfolio .portfolio-item .portfolio-caption p {
-  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-style: Extra-Light;
+  font-family: "Source Code Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style;
   font-size: 16px;
-  margin: 0;
+  letter-spacing: 3px;
+  font-weight: 100;
+  margin;
 }
 #portfolio * {
   z-index: 2;
@@ -392,6 +413,8 @@ section h3.section-subheading {
 
 .timeline {
   list-style: none;
+
+
   padding: 0;
   position: relative;
 }
@@ -401,13 +424,14 @@ section h3.section-subheading {
   position: absolute;
   content: "";
   width: 2px;
-  background-color: #f1f1f1;
+  background-color: white;
   left: 40px;
   margin-left: -1.5px;
 }
 .timeline > li {
   margin-bottom: 50px;
   position: relative;
+
   min-height: 50px;
 }
 .timeline > li:before,
@@ -444,10 +468,10 @@ section h3.section-subheading {
   height: 80px;
   position: absolute;
   z-index: 100;
-  background-color: #fed136;
+  background-color: black;
   color: white;
   border-radius: 100%;
-  border: 7px solid #f1f1f1;
+  border: 7px solid white;
   text-align: center;
 }
 .timeline > li .timeline-image h4 {
