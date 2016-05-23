@@ -38,7 +38,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-  color: #fec503;
+  color: #e8d700;
 }
 /*PORTAFOLIO ----------------- PORTAFOLIO -----------------------*/
 
@@ -56,7 +56,7 @@ h6 {
   font-weight: 200;
 }
 .img-centered {
-  margin: 0 auto;
+  margin: auto;
 }
 .bg-light-gray {
   background-color: white;
@@ -78,7 +78,7 @@ h6 {
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
   color: white;
-  background-color: #fec503;
+  background-color: #e8d700;
   border-color: #f6bf01;
 }
 
@@ -107,26 +107,29 @@ fieldset[disabled] .btn-primary.active {
 }
 .btn-primary .badge {
   color: #e8d700;
-  background-color: #ffffff;
+  background-color: white;
 }
+
+/*Boton para enviar mensaje*/
 .btn-xl {
   color: white;
-  background-color: #e8d700;
-  /*border-color: #e8d700;*/
+  background-color: black;
+  border-color: #e8d700;
   font-family: 'Raleway', sans-serif;
-  text-transform: lowercase;
-  font-weight: 700;
-  border-radius: 3px;
-  font-size: 75px;
-  padding: 20px 40px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-weight: 300;
+  border-radius: 7px;
+  font-size: 14px;
+  padding: 10px 20px;
 }
 .btn-xl:hover,
 .btn-xl:focus,
 .btn-xl:active,
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
-  color: #ffffff;
-  background-color: #fec503;
+  color: white;
+  background-color: #e8d700;
   border-color: #f6bf01;
 }
 .btn-xl:active,
@@ -157,8 +160,9 @@ fieldset[disabled] .btn-xl.active {
   background-color: #ffffff;
 }
 .navbar-default {
-  background-color: #222222;
+  background-color: black;
   border-color: transparent;
+
 }
 .navbar-default .navbar-brand {
   color: #e8d700;
@@ -168,13 +172,13 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-  color: #fec503;
+  color: #e8d700;
 }
 .navbar-default .navbar-collapse {
   border-color: rgba(255, 255, 255, 0.02);
 }
 .navbar-default .navbar-toggle {
-  background-color: #e8d700;
+  background-color: transparent;
   border-color: #e8d700;
 }
 .navbar-default .navbar-toggle .icon-bar {
@@ -182,7 +186,7 @@ fieldset[disabled] .btn-xl.active {
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-  background-color: #e8d700;
+  border-color: #e8d700;
 }
 
 /*color de los titles del navbar (portofolio, about, etc) en el landing page*/
@@ -192,22 +196,24 @@ fieldset[disabled] .btn-xl.active {
   font-size: 13px;
   font-weight: 400;
   letter-spacing: 5px;
-  color: white;
+  color: #606060;
 }
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
   color: #e8d700;
-  outline: none;
+  outline: white;
 }
+/*El bg es el recuadro que rodea "portofolio" etc*/
 .navbar-default .navbar-nav > .active > a {
   border-radius: 0;
   color: #e8d700;
-  background-color: black;
+  border-color: white;
 }
+/*cuando ya está seleccionado y el mouse hace hover*/
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-  color: black;
-  background-color: #e8d700;
+  color: #e8d700;
+  /*background-color: transparent;*/
 }
 @media (min-width: 768px) {
   .navbar-default {
@@ -225,8 +231,10 @@ fieldset[disabled] .btn-xl.active {
     -moz-transition: all 0.3s;
     transition: all 0.3s;
   }
+  /*cuando la selección está activa*/
   .navbar-default .navbar-nav > .active > a {
-    border-radius: 3px;
+    background-color: transparent;
+    border-radius: 0px;
   }
   /*acción del navbar cuando uno scrollea entonces se cambia de color, coordinar con el BG*/
   .navbar-default.navbar-shrink {
@@ -318,7 +326,8 @@ section h3.section-subheading {
   text-transform: none;
   /*font-style: italic;*/
   font-weight: 250;
-  margin-bottom: 75px;
+  margin-bottom: 60px;
+  margin-bottom: 60px;
 }
 @media (min-width: 768px) {
   section {
@@ -473,7 +482,7 @@ section h3.section-subheading {
   background-color: black;
   color: white;
   border-radius: 100%;
-  border: 7px solid white;
+  border: 6px solid white;
   text-align: center;
 }
 .timeline > li .timeline-image h4 {
@@ -585,7 +594,7 @@ section h3.section-subheading {
 }
 .team-member {
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 .team-member img {
   margin: 0 auto;
@@ -596,15 +605,16 @@ section h3.section-subheading {
   margin-bottom: 0;
   text-transform: none;
 }
+/*Interacitve Design Engineer*/
 .team-member p {
-  margin-top: 0;
+  margin-top: 10px;
 }
 aside.clients img {
-  margin: 50px auto;
+  margin: 20px auto;
 }
 section#contact {
-  background-color: #222222;
-  background-image: url('../img/map-image.png');
+  background-color: black;
+ /* background-image: url('../img/map-image.png');*/
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -616,13 +626,15 @@ section#contact .form-group {
 }
 section#contact .form-group input,
 section#contact .form-group textarea {
-  padding: 20px;
+  padding: 10px;
+  width:400px;
 }
 section#contact .form-group input.form-control {
   height: auto;
 }
 section#contact .form-group textarea.form-control {
-  height: 236px;
+  height: 175px;
+  width: 400px;
 }
 section#contact .form-control:focus {
   border-color: #e8d700;
@@ -631,7 +643,7 @@ section#contact .form-control:focus {
 section#contact ::-webkit-input-placeholder {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 400;
   color: #bbbbbb;
 }
 section#contact :-moz-placeholder {
@@ -645,13 +657,13 @@ section#contact ::-moz-placeholder {
   /* Firefox 19+ */
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 10;
   color: #bbbbbb;
 }
 section#contact :-ms-input-placeholder {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 200;
   color: #bbbbbb;
 }
 section#contact .text-danger {
@@ -675,6 +687,7 @@ footer ul.quicklinks {
   text-transform: none;
 }
 ul.social-buttons {
+  margin-top: 25px;
   margin-bottom: 0;
 }
 ul.social-buttons li a {
@@ -683,9 +696,9 @@ ul.social-buttons li a {
   height: 40px;
   width: 40px;
   border-radius: 100%;
-  font-size: 20px;
-  line-height: 40px;
-  color: white;
+  font-size: 15px;
+  line-height: 43px;
+  color: #e8d700;
   outline: none;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
@@ -694,6 +707,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
+  color:black;
   background-color: #e8d700;
 }
 .btn:focus,
