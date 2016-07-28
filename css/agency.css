@@ -248,7 +248,7 @@ fieldset[disabled] .btn-xl.active {
 
 /* -------HEADER--------------------------HEADER------------------HEADER----------*/
 header {
-  background-image: url('https://github.com/MarceAmsa/marceamsa.github.io/blob/master/img/header_dualcolor.jpg?raw=true');
+  background-image: url('http://marceamsa.github.io/img/header_dualcolor.jpg');
   background-repeat: none;
   background-attachment: scroll;
   background-position: center center;
