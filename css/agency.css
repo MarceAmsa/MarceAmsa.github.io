@@ -248,11 +248,12 @@ fieldset[disabled] .btn-xl.active {
 
 /* -------HEADER--------------------------HEADER------------------HEADER----------*/
 header {
-  background-image: url('http://marceamsa.github.io/img/header_dualcolor.jpg');
+  background: black;
+ background-image: url('/Users/marcela_salas/Documents/Personal/Portfolio/GitHub_MarceAmsa/img/dualtone_background.jpeg');
   background-repeat: none;
   background-attachment: scroll;
   background-position: center center;
-  background: black;
+  
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -613,7 +614,8 @@ aside.clients img {
 }
 section#contact {
   background-color: black;
- /* background-image: url('../img/map-image.png');*/
+
+ background-image: url('../img/map-image.png');
   background-position: center;
   background-repeat: no-repeat;
 }
